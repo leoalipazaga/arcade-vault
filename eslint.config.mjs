@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Prototype source — plain React-18 CDN files, not part of the build.
+    "references/**",
   ]),
 ]);
 
